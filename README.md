@@ -50,11 +50,11 @@ UniMob consists of three core components:
 
 We use two real-world human mobility datasets covering five cities:
 
-1. **Private Car GPS dataset** (Guangzhou, Shenzhen, Changsha)  
+1. **Private Car GPS dataset**  
   [CoPB dataset](https://anonymous.4open.science/r/CoPB)  
   Derived from in-vehicle GPS devices, mapped to discrete urban regions.
   
-2. **Mobile Phone Location dataset** (Beijing, Shenzhen, Shanghai)  
+2. **Mobile Phone Location dataset** 
   [Rutgers dataset](https://www.cs.rutgers.edu/~dz220/data.html)  
   Collected from GPS and cell-tower localization.
   
@@ -103,16 +103,3 @@ run/tuning/tune_Projector.ipynb
 ```
 
 ---
-
-## 📜 Citation
-
-If you use this code, please cite our paper:
-
-```bibtex
-@article{unimob2025,
-  title={All Cities are Equal: A Unified Human Mobility Generation Model Enabled by Large Language Models},
-  author={Your Name and Others},
-  year={2025},
-  journal={Proceedings of ...}
-}
-```
