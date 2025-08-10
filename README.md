@@ -13,7 +13,7 @@ UniMob consists of three core components:
   Encodes diverse city spatial structures into a **shared latent space** via a spatio-temporal encoder, and decodes them back to city-specific identifiers through a lightweight decoder for cross-city generalization.
   
 3. **Diffusion-based Mobility Generator**  
-  Uses a conditional **Diffusion Transformer (DiT)** to generate mobility sequences in the unified space, guided by travel plans and start conditions, producing realistic and diverse trajectories.
+  Uses a conditional **Diffusion Transformer (DiT)** to generate mobility sequences in the unified space, guided by travel plans and start conditions, producing realistic and diverse mobility.
   
 <p align="center">
   <img src="framework.png"/>
