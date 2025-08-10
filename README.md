@@ -16,7 +16,7 @@ UniMob consists of three core components:
   Uses a conditional **Diffusion Transformer (DiT)** to generate mobility sequences in the unified space, guided by travel plans and start conditions, producing realistic and diverse trajectories.
   
 <div align="center">
-<img src="./framework.png" width="700">
+<img src="framework.png" width="700">
 </div>
 
 ---
