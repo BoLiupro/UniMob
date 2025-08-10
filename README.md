@@ -17,7 +17,7 @@ UniMob consists of three core components:
   
 
 <div align="center">
-<img src="docs/framework.png" width="700">
+<img src="framework.pdf" width="700">
 </div>
 
 ---
