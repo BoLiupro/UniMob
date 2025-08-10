@@ -15,8 +15,9 @@ UniMob consists of three core components:
 3. **Diffusion-based Mobility Generator**  
   Uses a conditional **Diffusion Transformer (DiT)** to generate mobility sequences in the unified space, guided by travel plans and start conditions, producing realistic and diverse trajectories.
   
-
-![Framework](./framework.png)
+<div align="center">
+<img src="./framework.png" width="700">
+</div>
 
 ---
 
@@ -30,14 +31,14 @@ UniMob consists of three core components:
 ├── run/
 │   ├── pretrain/
 │   │   ├── LLM/         
-│   │   │   └── train_Travel_Planer.ipynb
+│   │   │   └── train_travel_planer.ipynb
 │   │   ├── Encoder/      
 │   │   │   ├── train_Encoder.ipynb
 │   │   │   └── test_Encoder.ipynb
 │   │   └── Diffusion/   
-│   │       └── train_Mobility_Generator.py
+│   │       └── train_mobility_generator.py
 │   └── tuning/          
-│       └── tune_Unified_Spatial_Embedding.ipynb
+│       └── tune_unified_spatial_embedding.ipynb
 ├── trainer/              # Training loops
 ├── args.py               # Argument parser
 ├── util.py               # Utility functions
