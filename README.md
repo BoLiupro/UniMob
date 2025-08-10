@@ -76,7 +76,7 @@ Generates temporal & semantic travel plans.
 
 ```bash
 # Notebook execution
-run/pretrain/LLM/train_LLM.ipynb
+run/pretrain/LLM/train_travel_planner.ipynb
 ```
 
 ### **Step 2 – Pre-train the Spatio-temporal Encoder**
@@ -92,7 +92,7 @@ run/pretrain/Encoder/train_Encoder.ipynb
 Trains DiT to generate latent mobility sequences.
 
 ```bash
-python run/pretrain/Diffusion/train_Diffusion.py
+python run/pretrain/Diffusion/train_mobility_generator.py
 ```
 
 ### **Step 4 – Fine-tune for Target City Adaptation**
@@ -100,7 +100,7 @@ python run/pretrain/Diffusion/train_Diffusion.py
 Trains a lightweight decoder/projector with small labeled data from target city.
 
 ```bash
-run/tuning/tune_Projector.ipynb
+run/tuning/tune_unified_spatial_embedding.ipynb
 ```
 
 ---
