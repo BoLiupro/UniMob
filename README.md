@@ -1,5 +1,7 @@
 # All Cities are Equal: A Unified Human Mobility Generation Model Enabled by Large Language Models
 
+🚀IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING \'2026\'
+
 This repository contains the official implementation of **UniMob**, a unified framework for **synthetic human mobility generation across cities**, integrating Large Language Models (LLMs), a spatio-temporal encoder, and a diffusion-based mobility generator.
 
 ## 📖 Framework Overview
