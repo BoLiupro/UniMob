@@ -15,19 +15,23 @@
 
 ## Overview
 
-**UniMob** is a unified human mobility generation framework designed to generalize across cities with different spatial structures and data availability. It combines LLM-based semantic planning, unified spatial representation learning, and diffusion-based trajectory generation.
+**UniMob** is a unified human mobility generation framework designed to generalize across cities with heterogeneous spatial structures and different levels of data availability. It combines LLM-based semantic travel planning, unified spatial representation learning, and diffusion-based mobility generation in a single cross-city framework.
 
 <p align="center">
   <img src="framework.png" width="92%" alt="UniMob framework" />
 </p>
 
+## Abstract
+
+Synthetic human mobility generation provides an effective and privacy-conscious way to support the data requirements of intelligent urban systems. However, most existing approaches perform well mainly in data-rich cities and often degrade substantially when transferred to cities with limited mobility data. This creates an important imbalance: the quality of generated mobility data should not depend on the size or data resources of a city. To address this problem, we propose **UniMob**, a unified human mobility generation framework that supports cross-city modeling. UniMob contains three major components. First, an **LLM-powered travel planner** derives high-level travel intentions that are both temporally aware and semantically meaningful. Second, a **unified spatial embedding module** maps heterogeneous regions from different cities into a shared representation space, reducing the mismatch caused by city-specific spatial structures. Third, a **diffusion-based mobility generator** models the joint spatiotemporal characteristics of human movement under the guidance of the generated travel plans. We evaluate UniMob on two real-world datasets covering five cities. Extensive experiments show that UniMob substantially outperforms state-of-the-art baselines, with improvements of more than **30% across multiple evaluation metrics**. Further analyses demonstrate strong performance in zero-shot and few-shot settings, verify the importance of LLM guidance, examine privacy properties, and show the usefulness of the generated mobility data for downstream applications.
+
 ## Highlights
 
-- **LLM-powered travel planner** for high-level temporal and semantic travel intentions.
-- **Unified spatial embedding** that maps heterogeneous city regions into a shared representation space.
-- **Diffusion-based mobility generator** for realistic and diverse trajectory generation.
-- **Cross-city generalization** evaluated in zero-shot and few-shot settings.
-- Experiments on **two real-world datasets covering five cities**, with improvements of more than 30% across multiple metrics reported in the paper.
+- **LLM-powered travel planner** for high-level temporal and semantic mobility intentions.
+- **Unified spatial embedding** that maps heterogeneous city regions into a shared latent space.
+- **Diffusion-based mobility generator** for realistic and diverse trajectory synthesis.
+- **Cross-city generalization** in both zero-shot and few-shot scenarios.
+- **Two real-world datasets covering five cities** with strong gains over state-of-the-art baselines.
 
 ## Paper & Download
 
